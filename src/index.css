@@ -7,7 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* color: white;
   background-color: black; */
-  color: black;
+  /* color: blac; */
+
+  /* background: rgb(42, 3, 9); */
+  background-image: url("./assets/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 code {
