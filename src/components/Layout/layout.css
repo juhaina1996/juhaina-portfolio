@@ -4,6 +4,8 @@
   background: #160801e3;
   text-decoration: none;
   padding: 50px;
+  font-family: cursive;
+  font-size: 32px;
   color: white;
 }
 a {
@@ -15,4 +17,8 @@ ol {
 }
 ul {
   list-style-type: none;
+}
+.logo {
+  width: 60px;
+  height: 60px;
 }

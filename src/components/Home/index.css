@@ -1,0 +1,47 @@
+.myProfile {
+  height: 684px;
+  border-radius: 50%;
+  margin-top: -30px;
+}
+.imageContainer {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.IntroContainer {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.introductionContain {
+  font-size: 36px;
+  text-align: justify;
+  margin-left: 150px;
+  width: 50%;
+  font-family: cursive;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+.description {
+  margin-top: 60px;
+}
+.cvDownloadButton {
+  border: 1px solid rgb(79, 36, 5);
+  padding: 5px 12px;
+  background: transparent;
+  font-family: cursive;
+  font-size: 20px;
+  margin-top: 30px;
+  align-self: flex-start;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* .cvDownloadButton:hover {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+} */
+.cvDownloadButton:hover {
+  transform: translateY(-0.25em);
+  box-shadow: 0 0.5em 0.5em -0.4em brown;
+}

@@ -6,6 +6,7 @@ import Blogs from "./components/Contact/contact";
 import Contact from "./components/About/About";
 import NoPage from "./components/Nopage/noPage";
 import "./index.css";
+import Skills from "./components/Skills/skills";
 export default function App() {
   return (
     <BrowserRouter>
@@ -13,8 +14,9 @@ export default function App() {
         {/* <div className="routes"> */}
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="skills" element={<Skills />} />
           <Route path="*" element={<NoPage />} />
         </Route>
         {/* </div> */}
