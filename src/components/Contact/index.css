@@ -1,0 +1,22 @@
+.aboutContainer {
+  font-size: 26px;
+  text-align: justify;
+  font-family: cursive;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.aboutMainContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutTextContainer {
+  width: 50%;
+}
+.aboutImage {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+.aboutImageContainer {
+  align-self: baseline;
+}

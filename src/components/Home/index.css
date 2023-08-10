@@ -36,11 +36,9 @@
   align-self: flex-start;
   border-radius: 10px;
   cursor: pointer;
+  color: rgb(79, 36, 5);
 }
-/* .cvDownloadButton:hover {
-  animation: pulse 1s;
-  box-shadow: 0 0 0 2em transparent;
-} */
+
 .cvDownloadButton:hover {
   transform: translateY(-0.25em);
   box-shadow: 0 0.5em 0.5em -0.4em brown;
