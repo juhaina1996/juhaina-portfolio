@@ -18,7 +18,7 @@ const Layout = () => {
             </Link>
           </li>
           <li>
-            <Link to="/blogs" className={isActiveLink("/blogs")}>
+            <Link to="/about" className={isActiveLink("/about")}>
               About
             </Link>
           </li>

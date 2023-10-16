@@ -1,16 +1,16 @@
 import React from "react";
-import myImage from "../../assets/MyImage.jpeg";
+import myImage from "../../assets/MyImage.jpg";
 import "./index.css";
 export const home = () => {
   const cvLink =
-    "https://drive.google.com/file/d/1j5UDdzkQEnPARZQAzYJCwaP8ZY05-Fgq/view?usp=sharing";
+    "https://drive.google.com/file/d/17a9JdMd4VhJa1x20QSw9yCJ8Xk2JFbfi/view?usp=sharing";
   return (
     <div className="IntroContainer">
       <div className="imageContainer">
         <img src={myImage} alt="profile" className="myProfile" />
       </div>
       <div className="introductionContain">
-        <div>SOFWARE ENGINEER</div>
+        <div class="illuminating-text">SOFWARE ENGINEER</div>
         <div className="description">
           I am an experienced Software Engineer with three years of expertise in
           developing and maintaining software applications. My skillset

@@ -1,27 +1,35 @@
 .myProfile {
-  height: 684px;
+  height: 454px;
   border-radius: 50%;
-  margin-top: -30px;
+  margin-top: 30px;
 }
 .imageContainer {
   display: flex;
-  align-items: center;
-  height: 100vh;
+  margin-left: 20px;
 }
+.myProfile {
+  display: flex;
+  margin-left: 20px;
+  box-shadow: 0 0 15px rgb(48, 37, 37); /* Add a box shadow when hovering */
+  transition: box-shadow 0.3s ease-in-out; /* Add a transition for the box-shadow property */
+  /* Add other styles as needed */
+}
+
 .IntroContainer {
   display: flex;
   align-items: center;
   height: 100vh;
 }
 .introductionContain {
-  font-size: 36px;
+  font-size: 25px;
   text-align: justify;
   margin-left: 150px;
   width: 50%;
-  font-family: cursive;
+  font-family: "Metrophobic";
   font-weight: 500;
   display: flex;
   flex-direction: column;
+  margin-top: 89px;
 }
 .description {
   margin-top: 60px;
@@ -42,4 +50,30 @@
 .cvDownloadButton:hover {
   transform: translateY(-0.25em);
   box-shadow: 0 0.5em 0.5em -0.4em brown;
+}
+.illuminating-text {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background-image: linear-gradient(
+    90deg,
+    #eb680b,
+    #6d0808,
+    #8b4513
+  ); /* Gradient with coffee brown and white colors */
+
+  background-size: 200% 100%; /* Double the width to create an animated effect */
+  background-clip: text;
+  -webkit-background-clip: text; /* Clip the background to the text */
+  color: transparent; /* Make the text transparent to reveal the background */
+  animation: shimmer 5s linear infinite; /* Apply the shimmering animation */
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0; /* Start with the gradient shifted to the left */
+  }
+  100% {
+    background-position: 200% 0; /* Shift the gradient to the right */
+  }
 }

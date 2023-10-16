@@ -1,7 +1,7 @@
 .aboutContainer {
-  font-size: 26px;
+  font-size: 22px;
   text-align: justify;
-  font-family: cursive;
+  font-family: "Metrophobic";
   font-weight: 500;
   margin-left: 40px;
 }
@@ -10,7 +10,7 @@
   justify-content: space-between;
 }
 .aboutTextContainer {
-  width: 50%;
+  width: 70%;
 }
 .aboutImage {
   width: 500px;
